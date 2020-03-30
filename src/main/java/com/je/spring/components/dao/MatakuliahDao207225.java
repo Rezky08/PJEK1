@@ -10,5 +10,5 @@ package com.je.spring.components.dao;
  * @author hichi
  */
 public interface MatakuliahDao207225 {
-    void insertMatakuliah207225();
+    void insertMataKuliah();
 }
