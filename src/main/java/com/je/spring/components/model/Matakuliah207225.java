@@ -3,7 +3,7 @@
  */
 package com.je.spring.components.model;
 
-public class Matakuliah {
+public class Matakuliah207225 {
 
     private int kodeMatkul207225;
     private String namaMatkul207225;

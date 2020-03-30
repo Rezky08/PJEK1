@@ -6,7 +6,7 @@ package com.je.spring.components.app;
 import com.je.spring.components.model.Customer;
 import com.je.spring.components.model.Employee;
 import com.je.spring.components.model.Mahasiswa;
-import com.je.spring.components.model.Matakuliah;
+import com.je.spring.components.model.Matakuliah207225;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.je.spring.components.service.CustomerService;
@@ -69,7 +69,7 @@ public class AppTugas {
         
         MatakuliahService mataKuliahService = (MatakuliahService) context.getBean("mataKuliahService");
         mataKuliahService.insertMataKuliah();
-        Matakuliah mataKuliah = new Matakuliah();
+        Matakuliah207225 mataKuliah = new Matakuliah207225();
         mataKuliah.setKodeMatkul207225(1);;
         mataKuliah.setNamaMatkul207225("Java Enterprise");
         System.out.println("Start Insert Mata Kuliah");
