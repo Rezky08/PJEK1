@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-@Service("matakuliahService")
+@Service("mataKuliahService")
 public class MatakuliahServiceImpl207225 implements MatakuliahService207225{
     
     @Autowired

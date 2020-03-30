@@ -5,9 +5,9 @@
  */
 package com.je.spring.components.service.impl;
 
+import com.je.spring.components.dao.CustomerDao;
 import com.je.spring.components.dao.EmployeeDao;
 import com.je.spring.components.service.EmployeeService;
-import com.je.spring.components.service.MahasiswaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +20,10 @@ public class EmployeeServiceImpl implements EmployeeService{
     
     @Autowired
     EmployeeDao employeeDao;
-
+    public void setEmployee(EmployeeDao employeeDao) {
+        this.employeeDao = employeeDao;
+    }
+    
     public void insertEmployee() {
         employeeDao.insertEmployee();
     }

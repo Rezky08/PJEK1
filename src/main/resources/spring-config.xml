@@ -25,22 +25,4 @@
     </bean>
     <bean id="customerDao" class="com.je.spring.components.dao.impl.CustomerDaoImpl" />
     
-    <bean id="employeeService" class="com.je.spring.components.service.impl.EmployeeServiceImpl">
-        <property name="employeeDao" ref="employeeDao" />
-    </bean>
-    <bean id="employeeDao" class="com.je.spring.components.dao.impl.EmployeeDaoImpl" />
-    
-    
-    <bean id="mahasiswaService" class="com.je.spring.components.service.impl.MahasiswaServiceImpl">
-        <property name="mahasiswaDao" ref="mahasiswaDao" />
-    </bean>
-    <bean id="mahasiswaDao" class="com.je.spring.components.dao.impl.MahasiswaDaoImpl" />
-    
-    <bean id="mataKuliahService" class="com.je.spring.components.service.impl.MatakuliahServiceImpl207225">
-        <property name="customerDao" ref="customerDao" />
-    </bean>
-    <bean id="mataKuliahDao" class="com.je.spring.components.dao.impl.MatakuliahDaoImpl207225" />
-    
-    
-    
 </beans>

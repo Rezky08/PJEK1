@@ -8,7 +8,7 @@ package com.je.spring.components.dao.impl;
 import com.je.spring.components.dao.MatakuliahDao207225;
 import org.springframework.stereotype.Repository;
 
-@Repository("matakuliahDao")
+@Repository("mataKuliahDao")
 public class MatakuliahDaoImpl207225 implements MatakuliahDao207225{
      public void insertMataKuliah() {
         System.out.println("INSERT MataKuliah");

@@ -19,7 +19,7 @@ public class App {
 
         CustomerService customerService = (CustomerService) context.getBean("customerService");
         Customer customer = new Customer();
-        customer.setId(1);;
+        customer.setId(1);
         customer.setNama("Ravi Melan");
         customer.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Customer");
@@ -35,7 +35,7 @@ public class App {
         MahasiswaService mahasiswaService = (MahasiswaService) context.getBean("mahasiswaService");
         mahasiswaService.insertMahasiswa();
         Mahasiswa mahasiswa = new Mahasiswa();
-        mahasiswa.setId(1);;
+        mahasiswa.setId(1);
         mahasiswa.setNama("Ravi Melan");
         mahasiswa.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Mahasiswa");
@@ -51,7 +51,7 @@ public class App {
         EmployeeService employeeService = (EmployeeService) context.getBean("employeeService");
         employeeService.insertEmployee();
         Employee employee = new Employee();
-        employee.setId(1);;
+        employee.setId(1);
         employee.setNama("Ravi Melan");
         employee.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Employee");

@@ -21,7 +21,7 @@ public class AppTugas {
 
         CustomerService customerService = (CustomerService) context.getBean("customerService");
         Customer customer = new Customer();
-        customer.setId(1);;
+        customer.setId(1);
         customer.setNama("Ravi Melan");
         customer.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Customer");
@@ -37,7 +37,7 @@ public class AppTugas {
         MahasiswaService mahasiswaService = (MahasiswaService) context.getBean("mahasiswaService");
         mahasiswaService.insertMahasiswa();
         Mahasiswa mahasiswa = new Mahasiswa();
-        mahasiswa.setId(1);;
+        mahasiswa.setId(1);
         mahasiswa.setNama("Ravi Melan");
         mahasiswa.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Mahasiswa");
@@ -53,7 +53,7 @@ public class AppTugas {
         EmployeeService employeeService = (EmployeeService) context.getBean("employeeService");
         employeeService.insertEmployee();
         Employee employee = new Employee();
-        employee.setId(1);;
+        employee.setId(1);
         employee.setNama("Ravi Melan");
         employee.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Employee");
@@ -69,7 +69,7 @@ public class AppTugas {
         MatakuliahService207225 matakuliahService207225 = (MatakuliahService207225) context.getBean("mataKuliahService");
         matakuliahService207225.insertMatakuliah();
         Matakuliah207225 mataKuliah = new Matakuliah207225();
-        mataKuliah.setKodeMatkul207225(1);;
+        mataKuliah.setKodeMatkul207225(1);
         mataKuliah.setNamaMatkul207225("Java Enterprise");
         System.out.println("Start Insert Mata Kuliah");
         matakuliahService207225.insertMatakuliah();

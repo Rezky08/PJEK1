@@ -13,6 +13,10 @@ public class MahasiswaServiceImpl implements MahasiswaService {
     @Autowired
     MahasiswaDao mahasiswaDao;
 
+    public void setMahasiswa(MahasiswaDao mahasiswaDao) {
+        this.mahasiswaDao = mahasiswaDao;
+    }
+    
     public void insertMahasiswa() {
         mahasiswaDao.insertMahahsiswa();
     }

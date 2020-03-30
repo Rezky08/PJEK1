@@ -4,6 +4,9 @@
 package com.je.spring.components.dao.impl;
 
 import com.je.spring.components.dao.CustomerDao;
+import org.springframework.stereotype.Repository;
+
+@Repository("customerDao")
 
 public class CustomerDaoImpl implements CustomerDao{
 
