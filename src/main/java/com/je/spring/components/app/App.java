@@ -39,7 +39,7 @@ public class App {
         mahasiswa.setNama("Ravi Melan");
         mahasiswa.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Mahasiswa");
-        customerService.insertCustomer();
+        mahasiswaService.insertMahasiswa();
         System.out.println("Finish Insert Mahasiswa");
 
         System.out.println("Mahasiswa id: " + mahasiswa.getId());
@@ -55,7 +55,8 @@ public class App {
         employee.setNama("Ravi Melan");
         employee.setAlamat("Sarana Indah Permai");
         System.out.println("Start Insert Employee");
-        customerService.insertCustomer();
+        employeeService.insertEmployee();
+
         System.out.println("Finish Insert Employee");
 
         System.out.println("Employee id: " + employee.getId());

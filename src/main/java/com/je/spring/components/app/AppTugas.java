@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.je.spring.components.service.CustomerService;
 import com.je.spring.components.service.EmployeeService;
 import com.je.spring.components.service.MahasiswaService;
-import com.je.spring.components.service.MatakuliahService;
+import com.je.spring.components.service.MatakuliahService207225;
 
 
 public class AppTugas {
@@ -67,13 +67,13 @@ public class AppTugas {
 
                 System.out.println("-------------------------");
         
-        MatakuliahService mataKuliahService = (MatakuliahService) context.getBean("mataKuliahService");
-        mataKuliahService.insertMataKuliah();
+        MatakuliahService207225 matakuliahService207225 = (MatakuliahService207225) context.getBean("mataKuliahService");
+        matakuliahService207225.insertMatakuliah();
         Matakuliah207225 mataKuliah = new Matakuliah207225();
         mataKuliah.setKodeMatkul207225(1);;
         mataKuliah.setNamaMatkul207225("Java Enterprise");
         System.out.println("Start Insert Mata Kuliah");
-        mataKuliahService.insertMataKuliah();
+        matakuliahService207225.insertMatakuliah();
         System.out.println("Finish Insert Mata Kuliah");
 
         System.out.println("Kode Mata Kuliah: " + mataKuliah.getKodeMatkul207225());
