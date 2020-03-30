@@ -1,5 +1,5 @@
 /*
- @author Ravi Melan
+ @author Rezky Setiawan
  */
 package com.je.spring.components.model;
 
