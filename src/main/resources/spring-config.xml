@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="mahasiswa2" class="com.je.spring.basic.model.Mahasiswa">
+        <property name="nim" value="1711501120"/>
+        <property name="nama" value="Rezky Setiawan"/>
+        <property name="jurusan" value="Teknik Informatika"/>
+        <property name="TmptLahir" value="Jakarta"/>
+
+    </bean>
+    
+    <bean id="matakuliah2" class="com.je.spring.basic.model.MataKuliah1120">
+        <property name="kode1120" value="PG-131"/>
+        <property name="nama1120" value="Java Enterprise"/>
+        <property name="mahasiswa" ref="mahasiswa2"/>
+    </bean>
+    
+    <bean id="alamat2" class="com.je.spring.basic.model.Alamat1120">
+        <constructor-arg name="kelurahan" value="Petukangan Selatan"/>
+        <constructor-arg name="kecamatan" value="Pesanggrahan"/>
+        <constructor-arg name="kota" value="Jakarta Selatan"/>
+    </bean>
+
+
+</beans>
